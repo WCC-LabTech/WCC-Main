@@ -89,5 +89,12 @@ if __name__ == '__main__':
                 'ssh': 'git@github.com:WCC-LabTech/Inventory-Management.git',
             },
          },
+        {
+            'name': 'password-recovery', 
+            'urls': {
+                'https': 'git@github.com:jenterkin/django-password-reset.git',
+                'ssh': 'git@github.com:jenterkin/django-password-reset.git',
+            },
+         },
     ]
     git_install_repos(repos, apps_dir)

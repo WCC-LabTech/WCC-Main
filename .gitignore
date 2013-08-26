@@ -1,5 +1,8 @@
 *.py[cod]
 
+# Apps
+apps/
+
 # C extensions
 *.so
 

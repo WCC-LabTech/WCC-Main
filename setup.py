@@ -22,7 +22,7 @@ def git_install_repos(repos, path):
         loc = repo['urls']['ssh'] if not None else repo['urls']['https']
         repo_path = path + repo['name']
         try:
-            Repo.clone_from(repo['urls']['ssh'], repo_path) 
+            Repo.clone_from(repo['urls']['https'], repo_path) 
             reqs = repo_path + '/requirements.txt' 
             if os.path.exists(reqs):
                 if os.path.isfile(reqs):

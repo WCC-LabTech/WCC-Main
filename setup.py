@@ -92,7 +92,7 @@ if __name__ == '__main__':
         {
             'name': 'password-recovery', 
             'urls': {
-                'https': 'git@github.com:jenterkin/django-password-reset.git',
+                'https': 'https://github.com:jenterkin/django-password-reset.git',
                 'ssh': 'git@github.com:jenterkin/django-password-reset.git',
             },
          },

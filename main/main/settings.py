@@ -129,11 +129,8 @@ INSTALLED_APPS = (
     'tokenauth',
     'password_reset',
     'gunicorn',
-    # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
     'django.contrib.admin',
-    # Uncomment the next line to enable admin documentation:
-    # 'django.contrib.admindocs',
+    'corsheaders',
 )
 
 CORS_ORIGIN_ALLOW_ALL = True
